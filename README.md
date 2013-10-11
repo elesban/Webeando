@@ -14,7 +14,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 
 ###Temario:
 
-1. Primer acercamiento. ¿Qué es Firefox OS?
+1. ¿Qué es Firefox OS?
 	- Cómo se construye Firefox OS.
 	- Comunidad.
 	- Libertad, desarrollo y distribución.
@@ -38,16 +38,17 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- Estructuras de control de flujo
 	- Funciones.
 	- Eventos.
-	- jQuery.
-		- Conceptos básicos jQuery.
-		- Selectores.
-		- Encadenamiento de métodos.
-		- Manipulación del DOM.
-		- Eventos.
-		- Animaciones.
 	- Ajax *
 
-5. Gráficos en la web (Canvas).
+5. jQuery.
+	- Conceptos básicos jQuery.
+	- Selectores.
+	- Encadenamiento de métodos.
+	- Manipulación del DOM.
+	- Eventos.
+	- Animaciones.
+
+6. Gráficos en la web (Canvas).
 	- Introducción.
 	- Uso básico
 	- Usando imágenes.
@@ -56,7 +57,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- Animaciones básicas.
 	- Optimización.
 
-6. Web APIs (Geo, video, audio, webrtc).
+7. Web APIs (Geo, video, audio, webrtc).
 	- Conceptos básicos.
 	- Tipos de WebAPI’s
 	- APIs de comunicación
@@ -64,7 +65,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- APIs de administración de información
 	- Otras APIs.
 
-7. WebSocket.
+8. WebSocket.
 	- Introducción
 	- Comunicación con el servidor.
 	- Comunicación de origen cruzado.
@@ -73,10 +74,10 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- Casos prácticos.
 	- De Webapp a Firefox OS App.
 
-8. Conceptos básicos Firefox OS.
+9. Firefox OS.
 	- El Manifiesto de la aplicación (Application Manifest)
 	- Tipos de aplicación.
 	- Security Access Levels.
 	- WebAPI’s de Mozilla.
 	
-9. Glosario.
+10. Glosario.
