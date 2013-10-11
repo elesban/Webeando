@@ -26,19 +26,22 @@ Es el *"sistema operativo"* de bajo nivel de *B2G*. A grandes rasgos, consiste e
 Al momento de escribir este texto son pocos los dispositivos que incluyen el sistema operativo Firefox OS, mismo que listamos a continuacion.
 
 ##### Alcatel
-- Alcatel one touch fire [3.5" HVGA, 320x480 pixels]
-![Arquitectura del sistema](media/images/alcatel-one-touch-fire.png)
+- Alcatel one touch fire *[3.5" HVGA, 320x480 pixels]*
+![Arquitectura del sistema](media/images/alcatel-one-touch-fire.jpg)
 
 #####Geekphone
-- Keon [3.5" HVGA, 320x480 pixels]
-![Geekphone Keon](media/images/Keon-Phone.png)
-- Peak [4.3" qHD 960×540 pixels]
-- Peak+ [4.3" qHD 960×540 pixels]
-![Geekphone Peak+](media/images/geeksphone-peak-plus.png)
+- Keon *[3.5" HVGA, 320x480 pixels]*
+
+![Geekphone Keon](media/images/Keon-Phone.jpg)
+
+- Peak / Peak+ *[4.3" qHD 960×540 pixels]*
+
+![Geekphone Peak+](media/images/geeksphone-peak-plus.jpg)
 
 ##### ZTE
-- ZTE Open [3.5" HVGA, 320x480 pixels]
-![ZTE Open](media/images/zteopen.png)
+- ZTE Open *[3.5" HVGA, 320x480 pixels]*
+
+![ZTE Open](media/images/zteopen.jpg)
 
 
 [1]: http://es.wikipedia.org/wiki/Firefox_OS "Firefox OS en Wikipedia"
