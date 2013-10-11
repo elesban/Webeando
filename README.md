@@ -14,7 +14,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 
 ###Temario:
 
-1. ¿Qué es Firefox OS?
+1. [¿Qué es Firefox OS?](01 Que Es Firefox/Recursos del capitulo.md)
 	- Cómo se construye Firefox OS.
 	- Comunidad.
 	- Libertad, desarrollo y distribución.
