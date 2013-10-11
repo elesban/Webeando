@@ -5,9 +5,9 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 
 ###Cronograma del curso:
 
-- Intoduccion a la programacion web.
+- Intoduccion a la programacion web. (45 min)
 - Construccion de una GUI con BuildingBlocks.
-- Javascrip.
+- Javascript.
 - Web API's.
 - Montar una App de TODO.
 
@@ -19,17 +19,11 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- Comunidad.
 	- Libertad, desarrollo y distribución.
 
-2. Conceptos básicos Firefox OS.
-	- El Manifiesto de la aplicación (Application Manifest)
-	- Tipos de aplicación.
-	- Security Access Levels.
-	- WebAPI’s de Mozilla.
+2. Partes de una web.
 
-3. Partes de una web.
+3. Herramientas de desarrollo. 
 
-4. Herramientas de desarrollo. 
-
-5. HTML (Qué es y cómo se come).
+4. HTML (Qué es y cómo se come).
 	- ¿Qué es el DOM?
 	- Hojas de estilo. (CSS).
 	- Diseño adaptable.
@@ -53,7 +47,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 		- Animaciones.
 	- Ajax *
 
-6. Gráficos en la web (Canvas).
+5. Gráficos en la web (Canvas).
 	- Introducción.
 	- Uso básico
 	- Usando imágenes.
@@ -62,7 +56,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- Animaciones básicas.
 	- Optimización.
 
-7. Web APIs (Geo, video, audio, webrtc).
+6. Web APIs (Geo, video, audio, webrtc).
 	- Conceptos básicos.
 	- Tipos de WebAPI’s
 	- APIs de comunicación
@@ -70,7 +64,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- APIs de administración de información
 	- Otras APIs.
 
-8. WebSocket.
+7. WebSocket.
 	- Introducción
 	- Comunicación con el servidor.
 	- Comunicación de origen cruzado.
@@ -78,4 +72,11 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- Uso actual de WebSockets.
 	- Casos prácticos.
 	- De Webapp a Firefox OS App.
-	- Glosario.
+
+8. Conceptos básicos Firefox OS.
+	- El Manifiesto de la aplicación (Application Manifest)
+	- Tipos de aplicación.
+	- Security Access Levels.
+	- WebAPI’s de Mozilla.
+	
+9. Glosario.
