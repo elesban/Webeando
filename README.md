@@ -3,9 +3,9 @@ Webeando
 
 Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 
-###Cronograma del curso:
+###Cronograma del curso (Sesiones de 45 min):
 
-- Intoduccion a la programacion web. (45 min)
+- Intoduccion a la programacion web.
 - Construccion de una GUI con BuildingBlocks.
 - Javascript.
 - Web API's.
