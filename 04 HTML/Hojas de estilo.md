@@ -109,7 +109,7 @@ La *Hoja de Estilo en Línea* sirve para insertar el lenguaje de estilo directam
 <h1 style="Font: 18px Verdana; font-weight: bold;">Estilo desde línea</h1> --> Esta línea integra el estilo a una sola línea dentro del archivo HTML
 ```
 
-###Estilo Importado
+###Estilo Importada
 
 La *Hoja de Estilo Importada* permite importar hojas de estilo externas cuando se declara el estilo del documento al insertar el comando *@IMPORT* inmediatamente después de la etiqueta de estilo.
 
@@ -134,6 +134,10 @@ La *Hoja de Estilo Importada* permite importar hojas de estilo externas cuando s
   @IMPORT URL (/style2.css);
 </style> --> En esta sección de código representa la integración de varios archivos de estilo en un mismo archivo HTML
 ```
+
+Cuando se activan múltiples estilos dentro de una página al utilizar varios métodos de inclusión posibles y algunos estilos entran en conflicto, se aplica el estilo más próximo al contenido. La prioridad, en orden descendente, es la siguiente:
+
+*Estilo en Línea > Estilo Interna > Estilo Importada > Estilo Externa*
 
 ##Ventajas de CSS
 
