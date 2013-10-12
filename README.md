@@ -27,7 +27,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- ¿Qué es el DOM?
 	- Hojas de estilo. (CSS).
 	- Diseño adaptable.
-	- Diseño Adaptable.
+	- Media Queries.
 	- JavaScript.
 	- ¿Qué es javaScript?
 	- Posibilidades y limitaciones.
