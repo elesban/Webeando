@@ -36,9 +36,9 @@ Dentro de la declaración, la *Propiedad o Atributo* define la interpretación d
 
 ##¿Cómo se integra?
 
-La información CSS se puede proporcionar por varias fuentes, ya sea adjunto como un documento por separado o incorporado en el documento HTML, y dentro de estas posibilidades destacan tres formas de dar estilo a un documento web:
+La información CSS se puede proporcionar por varias fuentes, ya sea adjunto como un documento por separado o incorporado en el documento HTML, y dentro de estas posibilidades destacan cuatro formas de dar estilo a un documento web:
 
-###Hoja de Estilo Externa
+###Estilo Externa
 
 La *Hoja de Estilo Externa* se almacena en un archivo diferente al del archivo con el código HTML al cual debe estar vinculado a través del elemento *link*, que debe ir situado en la sección *head*. Es la manera de programar más eficiente, ya que separa completamente las reglas de formato para la página HTML de la estructura básica de la página.
 
@@ -51,14 +51,14 @@ La *Hoja de Estilo Externa* se almacena en un archivo diferente al del archivo c
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <p class="paragraph">Este párrafo tiene algún tipo de estilo.</p>
+    <p class="paragraph">Este párrafo tiene algún tipo de estilo de tipo externo.</p>
   </body>
 </html>
 
 <link rel="stylesheet" type="text/css" href="style.css"> --> Esta línea nos enlaza al archivo "style.css", donde se encuentra el estilo del HTML
 ```
 
-###Hoja de Estilo Interna
+###Estilo Interna
 
 La *Hoja de Estilo Interna* está incorporada a un documento HTML, a través del elemento *style* dentro de la sección *head*, consiguiendo de esta manera separar la información del estilo del código HTML.
 
@@ -93,7 +93,7 @@ La *Hoja de Estilo Interna* está incorporada a un documento HTML, a través del
 
 ###Estilo en Línea
 
-El *Estilo en Línea* sirve para insertar el lenguaje de estilo directamente dentro de la sección body con el elemento *style*. Sin embargo, este tipo de estilo no se recomienda pues se debe intentar siempre separar el contenido de la presentación.
+La *Hoja de Estilo en Línea* sirve para insertar el lenguaje de estilo directamente dentro de la sección body con el elemento *style*. Sin embargo, este tipo de estilo no se recomienda pues se debe intentar siempre separar el contenido de la presentación.
 
 *Ejemplo*
 
@@ -107,6 +107,32 @@ El *Estilo en Línea* sirve para insertar el lenguaje de estilo directamente den
 </html>
 
 <h1 style="Font: 18px Verdana; font-weight: bold;">Estilo desde línea</h1> --> Esta línea integra el estilo a una sola línea dentro del archivo HTML
+```
+
+###Estilo Importado
+
+La *Hoja de Estilo Importada* permite importar hojas de estilo externas cuando se declara el estilo del documento al insertar el comando *@IMPORT* inmediatamente después de la etiqueta de estilo.
+
+*Ejemplo*
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      @IMPORT URL (/style.css);
+      @IMPORT URL (/style2.css);
+    </style>
+	</head>
+  <body>
+    <h1>Este HTML tiene un estilo importado</h1>
+  </body>
+</html>
+
+<style type="text/css">
+  @IMPORT URL (/style.css);
+  @IMPORT URL (/style2.css);
+</style> --> En esta sección de código representa la integración de varios archivos de estilo en un mismo archivo HTML
 ```
 
 ##Ventajas de CSS
