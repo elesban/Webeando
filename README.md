@@ -1,13 +1,13 @@
 Webeando
 ========
 
-Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
+Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápido.
 
 ###Cronograma del curso (Sesiones de 45 min):
 
-- Intoduccion a la programacion web.
-- Construccion de una GUI con BuildingBlocks.
-- Javascript.
+- Intoducción a la programación web.
+- Construcción de una GUI con BuildingBlocks.
+- JavaScript.
 - Web API's.
 - Montar una App de TODO.
 
@@ -25,11 +25,11 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 
 4. [HTML "Qué es y cómo se come".](04 HTML/HTML.md)
 	- ¿Qué es el DOM?
-	- Hojas de estilo. (CSS).
+	- Hojas de estilo (CSS).
 	- Diseño adaptable.
 	- Media Queries.
 	- JavaScript.
-	- ¿Qué es javaScript?
+	- ¿Qué es JavaScript?
 	- Posibilidades y limitaciones.
 	- JavaScript en los navegadores y otros entornos.
 	- Programación básica.
@@ -62,7 +62,7 @@ Webeando Facil es un curso para la creacion de aplicasiones web facil y rapido.
 	- Tipos de WebAPI’s
 	- APIs de comunicación
 	- APIs de acceso a Hardware.
-	- APIs de administración de información
+	- APIs de administración de información.
 	- Otras APIs.
 
 8. [WebSocket.](08 WebSocket/Websocket.md)
