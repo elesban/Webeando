@@ -109,3 +109,10 @@ El *Estilo en Línea* sirve para insertar el lenguaje de estilo directamente den
 <h1 style="Font: 18px Verdana; font-weight: bold;">Estilo desde línea</h1> --> Esta línea integra el estilo a una sola línea dentro del archivo HTML
 ```
 
+##Ventajas de CSS
+
+- La principal ventaja de CSS sobre el lenguaje HTML o similar, es que el estilo se puede guardar completamente por separado del contenido siendo posible, almacenar todos los estilos de presentación para una web de muchas páginas en un sólo archivo de CSS.
+- CSS permite un mejor control en la presentación de un sitio web que los elementos de HTML, agilizando su actualización.
+- Aumento de la accesibilidad de los usuarios gracias a que pueden especificar su propia hoja de estilo, permitiéndoles modificar el formato de un sitio web según sus necesidades.
+- El ahorro global en el ancho de banda es notable, ya que la hoja de estilo se almacena en caché después de la primera solicitud y se puede volver a usar para cada página del sitio, por ello no se tiene que descargar con cada página web. Por otro lado, quitando todo lenguaje de marcado en la presentación en favor del uso de CSS reduce su tamaño y ancho de banda hasta más del 50%, esto beneficia al dueño del sitio web con menos ancho de banda y costes de almacenamiento, así como a los visitantes para los cuales las páginas se van a cargar más rápido.
+- Una página puede tener diferentes hojas de estilo para mostrarse en diferentes dispositivos y diferentes tamaños, como pueden ser impresoras, lectores de voz, móviles, etc.
