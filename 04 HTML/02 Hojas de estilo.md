@@ -153,7 +153,7 @@ Cuando se activan múltiples estilos dentro de una página al utilizar varios m�
 
 *Estilo en Línea > Estilo Interna > Estilo Importada > Estilo Externa*
 
-##Ventajas de CSS
+###Ventajas de CSS
 
 - La principal ventaja de CSS sobre el lenguaje HTML o similar, es que el estilo se puede guardar completamente por separado del contenido siendo posible, almacenar todos los estilos de presentación para una web de muchas páginas en un sólo archivo de CSS.
 - CSS permite un mejor control en la presentación de un sitio web que los elementos de HTML, agilizando su actualización.
