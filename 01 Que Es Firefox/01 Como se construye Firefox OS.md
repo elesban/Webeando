@@ -42,4 +42,4 @@ Al momento de escribir este texto son pocos los dispositivos que incluyen el sis
 ![ZTE Open](media/images/zteopen.jpg)
 
 
-[1]: http://es.wikipedia.org/wiki/Firefox_OS "Firefox OS en Wikipedia"
+[1]: http://es.wikipedia.org/wiki/Firefox_OS "Firefox OS en Wikipedia.org"
