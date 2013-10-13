@@ -28,7 +28,7 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 	- Diseño adaptable.
 	- Media Queries.
 	
-05. JavaScript.
+05. [JavaScript.](05 JavaScript/JavaScript.md)
 	- ¿Qué es JavaScript?
 	- Posibilidades y limitaciones.
 	- JavaScript en los navegadores y otros entornos.
@@ -40,7 +40,7 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 	- Eventos.
 	- Ajax *
 
-06. [jQuery.](05 jQuery/jQuery.md)
+06. [jQuery.](06 jQuery/jQuery.md)
 	- Conceptos básicos jQuery.
 	- Selectores.
 	- Encadenamiento de métodos.
@@ -48,7 +48,7 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 	- Eventos.
 	- Animaciones.
 
-07. [Gráficos en la web "Canvas".](06 Graficos en la web/Graficos en la web.md)
+07. [Gráficos en la web "Canvas".](07 Graficos en la web/Graficos en la web.md)
 	- Introducción.
 	- Uso básico
 	- Usando imágenes.
@@ -57,7 +57,7 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 	- Animaciones básicas.
 	- Optimización.
 
-08. [Web APIs "Geo, video, audio, webrtc".](07 Web APIs/Web APIs.md)
+08. [Web APIs "Geo, video, audio, webrtc".](08 Web APIs/Web APIs.md)
 	- Conceptos básicos.
 	- Tipos de WebAPI’s
 	- APIs de comunicación
@@ -65,7 +65,7 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 	- APIs de administración de información.
 	- Otras APIs.
 
-09. [WebSocket.](08 WebSocket/Websocket.md)
+09. [WebSocket.](09 WebSocket/Websocket.md)
 	- Introducción
 	- Comunicación con el servidor.
 	- Comunicación de origen cruzado.
@@ -79,7 +79,7 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 	- [Comunidad.](10 Que Es Firefox/02 Comunidad.md)
 	- [Libertad, desarrollo y distribución.](10 Que Es Firefox/03 Libertad desarrollo y distribucion.md)
 	
-11. [Firefox OS.](09 Firefox OS/Firefox OS.md)
+11. [Firefox OS.](11 Firefox OS/Firefox OS.md)
 	- El Manifiesto de la aplicación (Application Manifest)
 	- Tipos de aplicación.
 	- Security Access Levels.
