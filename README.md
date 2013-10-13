@@ -74,10 +74,10 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 	- Casos prácticos.
 	- De Webapp a Firefox OS App.
 	
-10. [¿Qué es Firefox OS?](10 Que Es Firefox/Que es Firefox OS.md)
-	- [Cómo se construye Firefox OS.](10 Que Es Firefox/01 Como se construye Firefox OS.md)
-	- [Comunidad.](10 Que Es Firefox/02 Comunidad.md)
-	- [Libertad, desarrollo y distribución.](10 Que Es Firefox/03 Libertad desarrollo y distribucion.md)
+10. [¿Qué es Firefox OS?](10 Que Es Firefox OS/Que es Firefox OS.md)
+	- [Cómo se construye Firefox OS.](10 Que Es Firefox OS/01 Como se construye Firefox OS.md)
+	- [Comunidad.](10 Que Es Firefox OSx/02 Comunidad.md)
+	- [Libertad, desarrollo y distribución.](10 Que Es Firefox OS/03 Libertad desarrollo y distribucion.md)
 	
 11. [Firefox OS.](11 Firefox OS/Firefox OS.md)
 	- El Manifiesto de la aplicación (Application Manifest)
