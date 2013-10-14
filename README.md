@@ -11,7 +11,6 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 > - Web API's.
 > - Montar una App de TODO.
 
-
 ###Temario:
 
 #### [Introcucción](00 Introduccion/Introduccion.md)
@@ -21,7 +20,7 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 02. [Herramientas de desarrollo.](02 Herramientas de desarrollo/Herramientas de desarrollo.md)
 
 03. [HTML "Qué es y cómo se come".](03 HTML/HTML.md)
-	- ¿Qué es el DOM?
+	- [¿Qué es el DOM?](03 HTML/01 Que es el DOM.md)
 
 04. [Hojas de estilo (CSS).](04 Hojas de estilo/Hojas de estilo.md)
 	- [Tipos de Selectores.](04 Hojas de estilo/01 Tipos de selectores.md)
