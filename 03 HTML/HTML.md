@@ -91,6 +91,29 @@ En cuanto a la alineación del texto, el tipo y el tamaño de la fuente y demás
 
 __Importante:__ Muchas de las propiedades que tienen los documentos HTML, son establecidas mediante hojas de estilo por lo que incluirlas como atributos es poco común hoy en día. 
 
+###Encabezados
+
+Los encabezados nos proporcionan una valiosa herrmamienta para destacar temas importantes y títulos así como destacar la naturaleza del documento en conjunto.
+
+Hay seis niveles de encabezados en HTML especificados por las etiquetas `<h1></h1>`, `<h2></h2>`, `<h3></h3>`, `<h4></h4>`, `<h5></h5>` y `<h6></h6>`. 
+
+```
+  <h1>Encabezado nivel 1</h1>
+  <h2>Encabezado nivel 2</h2>
+  <h3>Encabezado nivel 3</h3>
+  <h4>Encabezado nivel 4</h4>
+  <h5>Encabezado nivel 5</h5>
+  <h6>Encabezado nivel 6</h6>
+```
+
+###Listas
+
+HTML ofrece varios mecanismos para especificar listas de información. Todas las listas deben contener uno o más objetos. Las listas pueden contener:
+
+* Información no ordenada.
+* Información ordenada.
+* Definiciones.
+
 ###Enlaces
 
 Un hiperenlace, hipervínculo o vínculo, no es más que un enlace a lleva a otra página o archivo.
@@ -184,6 +207,157 @@ ancho del elemento.
 
 `<textarea name="comentario" cols="30" rows="4"></textarea>`
 
+
+###Audio y video
+
+Las nuevas especificaciones de HTML5 incluyen etiquetas que nos permiten integrar contenidos miultimedia sin necesidad de complementos del navegador donde se ve el documento, las etiquetas `<video>` y `<audio>` sirven para integrar video y audio en las páginas web de la misma forma en que se insertan imágenes con la etiqueta `<img>`.
+
+Para incrustar un video dentro de la página web se puede hacer de la siguiente manera:
+
+`<video src="video.mp4" width="400" height="300"></video>`.
+
+De manera similar, agregar un archivo de audio podría realizarse así:
+
+`<audio src="audio.mp3" controls></audio>`
+
+El atributo `controls` le indica al navegador que incluya los controles para reproducir, pausar y adelantar la pista si es el caso.
+
+###Dibujo y animación
+
+La etiqueta `<canvas>` dota al lenguale HTML de un formato nativo para el dibujo y la animación. Esta plataforma puede ser una alternativa para los gráficos y animaciones que al día de hoy podemor ver en películas Flash.
+
+El elemento `canvas` funciona a modo de superficie de dibujo dentro de una página web (de ahí el nombre). Dentro de esta superficie podemos crar formas con colores, gradientes y patrones de relleno, mostrar texto y exportar los contenidos hacia archivos de imagen estática como `.png`. Podemos utilizar javaScript o las nuevas funciones de animación en CSS para que los objtos que creamos puedan moverse, desaparecer, cambiar de tamaño, etcétera.
+
+Para incorporar un elemento `canvas` se utiliza las etiquetas `<canvas> </canvas>`.
+
+`<canvas id="dibujo"></canvas>`.
+
+La funcionalidad se puede añadir con [código JavaScript.](05 JavaScript/JavaScript.md).
+
+```
+<html>
+  <head>
+    <title>Mi sitio web</title>
+  </head>
+  <body>
+  	<canvas id="dibujo"></canvas>
+  	
+  	<script>
+		var canvas = document.getElementById("dibujo"),
+		context = canvas.getContext("2d");
+		context.fillRect(10, 20, 200. 100);
+	</script>
+  </body>
+</html>
+```
+
+
+El código anterior dibuja un rectángulo con color (mediante el método `fillRect`) de un tamaño y una posición determinados (por medio de los argumentos del mismo método).
+
+###Etiquetas semánticas
+
+Las etiquetas semánticas representan bloques enteros que agrupan a otros elementos HTML y que permiten una mejor división del contenido y por ende una mejor semántica.
+
+__div__
+
+Los elementos `div` representan capas generéricas que se incluyen con las etiquetas `<div> </div>` en nuestra página HTML. 
+
+```
+<html>
+  <head>
+    <title>Mi sitio web</title>
+  </head>
+  <body>
+  	<div>
+  	 ...
+  	</div>
+  </body>
+</html>
+```
+
+__header__
+
+Este elemento nos permite identificar la cabecera de la página. Típicamente, dentro de este elemento se colocan el logotipo y nombre de la empresa, el menú de navegación, etcétera. Para incrustar un elemento `header` en nuestra página, se deben utilizar las etiquetas `<header></header>`.
+
+```
+<body>
+  	<header>
+		contenido del header
+  	</header>
+</body>
+```
+
+__footer__
+
+Las etiquetas `<footer></footer>` definen el 'pie' de una página. El pie de una página web por lo regular contiene información sobre su autor, derechos de autor, enlaces a términos de uso, contacto, etcétera.
+
+```
+<body>
+    ...
+  	<footer>
+		contenido del footer
+  	</footer>
+</body>
+```
+
+__nav__
+
+
+El elemento `nav` define los enlaces de navegación dentro de un sitio web.
+
+Se debe de tomar en cuenta que no todos los enlaces deben de estar dentro del elemento `nav` sino solo los más importantes o que contengan más información.
+
+```
+<body>
+  	<nav>
+		aquí puede ir el menú de navegación
+  	</nav>
+</body>
+```
+
+__section__
+
+
+Como su nombre lo indica, el elemento `section` define secciones dentro de las páginas web como capítulos, encabezados, etcétera. Las secciones se definen con las etiquetas `<section></section>`.
+
+
+```
+<html>
+  <head>
+    <title>Mi sitio web</title>
+  </head>
+  <body>
+  	<section>
+  	  el contenido de la sección
+  	</section>
+  </body>
+</html>
+```
+
+__article__
+
+El elemento `article` representa un componente independiente y autocontenido de una página web. Puede presentar un artículo, artículo de opinión, una entrada de un blog, etcétera.
+
+
+
+
+
+__aside__
+
+El elemento `aside` representa una sección de una página que tiene relación con el contenido que está mostrando una página web y que podría ser considerado por separado de ese contenido. Estas secciones a menudo representado como barras laterales y también llamadas 'sidebar'.
+
+```
+<html>
+  <head>
+    <title>Mi sitio web</title>
+  </head>
+  <body>
+  	<aside>
+  	  contenido del aside.
+  	</aside>
+  </body>
+</html>
+```
 
 
 
