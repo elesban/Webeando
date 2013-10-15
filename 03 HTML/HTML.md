@@ -39,7 +39,7 @@ Se debe tomar en cuenta que un documento HTML debe de estar delimitado por la et
 
 De este modo, podríamos definir lo que sería la estructura básica de un documento HTML con un título.
 
-```
+```html
 <html>
   <head>
     <title>Mi sitio web</title>
@@ -56,7 +56,7 @@ Una de las opciones más usadas son los párrafos. Los párrafos sirven para des
 
 __Ejemplo:__
 
-```
+```html
 <html>
   <head>
     <title>Mi sitio web</title>
@@ -70,7 +70,7 @@ __Ejemplo:__
 
 El texto dentro de un documento HTML puede tener distintos y variados formatos. Dicho formato puede ser indicado a través de algunas etiquetas o por [hojas de estilo (CSS).](04 Hojas de estilo/Hojas de estilo.md)
  
-```
+```html
 <html>
   <head>
     <title>Mi sitio web</title>
@@ -84,7 +84,7 @@ El texto dentro de un documento HTML puede tener distintos y variados formatos. 
 
 En cuanto a la alineación del texto, el tipo y el tamaño de la fuente y demás, pueden señalarse por medio de atributos dentro de las etiquetas. 
 
-```
+```html
   	<p align="center">Este es un párrafo centrado.</p>
   	<p color="#83b81a">Este párrafo tiene un color específico</p>
 ```
@@ -97,7 +97,7 @@ Los encabezados nos proporcionan una valiosa herrmamienta para destacar temas im
 
 Hay seis niveles de encabezados en HTML especificados por las etiquetas `<h1></h1>`, `<h2></h2>`, `<h3></h3>`, `<h4></h4>`, `<h5></h5>` y `<h6></h6>`. 
 
-```
+```html
   <h1>Encabezado nivel 1</h1>
   <h2>Encabezado nivel 2</h2>
   <h3>Encabezado nivel 3</h3>
@@ -134,7 +134,7 @@ Uno de los aspectos más vistosos y atractivos de las páginas web son las imág
 
 La etiqueta que utilizaremos para instertar una imagen es `<img>`. Esta etiqueta no posee un cierre y en ella se especifica el origen o ruta del archivo gráfico mediante en atributo `src`. Ejemplo:
 
-```
+```html
   <img src="images/photo.jpg" >
 ```
 
@@ -150,7 +150,7 @@ Para insertar un formulario en un documento HTML se utilizan las etiquetas `<for
 
 Los atributos más comunes en el uso de formularios son: `action` y `method`. El primero indica una dirección a la cual se enviarán los datos; la segunda indica el método en que será cifrada la información para su envío. 
 
-```
+```html
 	<form action="proceso.php" method="POST">
 	...
 	</form>
@@ -162,7 +162,7 @@ Los campos de texto (input) utilizan la etiqueta `<input >`. Los atributos más 
 
 Hay muchos tipos diferentes de "inputs" como `email` (correo), `text` (texto) o `password` (contraseña).
 
-```
+```html
 	<form action="proceso.php" method="POST">
 	  <input name="nombre" type="text" >
 	  <input name="contrasenia" type="password" >
@@ -180,7 +180,7 @@ __Botón de opción__
 
 Los botones de opción requieren el valor `radio` dentro del atributo `type`. Para indicar una que una opción está seleccionada se tiene que indicar a través del atributo `checked`.
 
-```
+```html
 <input nombre="opcion1" type="radio" checked>
 <input nombre="opcion2" type="radio" >
 ```
@@ -192,7 +192,7 @@ Si se requiere insertar un menú o una lista desplegable dentro de un formulario
 
 Los elementos que conforman la lista son instertados entre las etiquetas `<option></option>` y se se quiere mostrar una opción seleccionada por defecto se utiliza el atributo `selected`.
 
-```
+```html
   <select name="opciones"">
     <option>Uno</option>
     <option selected>Dos</option>
@@ -234,7 +234,7 @@ Para incorporar un elemento `canvas` se utiliza las etiquetas `<canvas> </canvas
 
 La funcionalidad se puede añadir con [código JavaScript.](05 JavaScript/JavaScript.md).
 
-```
+```html
 <html>
   <head>
     <title>Mi sitio web</title>
@@ -279,7 +279,7 @@ __header__
 
 Este elemento nos permite identificar la cabecera de la página. Típicamente, dentro de este elemento se colocan el logotipo y nombre de la empresa, el menú de navegación, etcétera. Para incrustar un elemento `header` en nuestra página, se deben utilizar las etiquetas `<header></header>`.
 
-```
+```html
 <body>
   	<header>
 		contenido del header
@@ -291,7 +291,7 @@ __footer__
 
 Las etiquetas `<footer></footer>` definen el 'pie' de una página. El pie de una página web por lo regular contiene información sobre su autor, derechos de autor, enlaces a términos de uso, contacto, etcétera.
 
-```
+```html
 <body>
     ...
   	<footer>
@@ -307,7 +307,7 @@ El elemento `nav` define los enlaces de navegación dentro de un sitio web.
 
 Se debe de tomar en cuenta que no todos los enlaces deben de estar dentro del elemento `nav` sino solo los más importantes o que contengan más información.
 
-```
+```html
 <body>
   	<nav>
 		aquí puede ir el menú de navegación
@@ -321,7 +321,7 @@ __section__
 Como su nombre lo indica, el elemento `section` define secciones dentro de las páginas web como capítulos, encabezados, etcétera. Las secciones se definen con las etiquetas `<section></section>`.
 
 
-```
+```html
 <html>
   <head>
     <title>Mi sitio web</title>
@@ -340,7 +340,7 @@ El elemento `article` representa un componente independiente y autocontenido de 
 
 
 
-```
+```html
 <html>
   <head>
     <title>Mi sitio web</title>
@@ -358,7 +358,7 @@ __aside__
 
 El elemento `aside` representa una sección de una página que tiene relación con el contenido que está mostrando una página web y que podría ser considerado por separado de ese contenido. Estas secciones a menudo representado como barras laterales y también llamadas 'sidebar'.
 
-```
+```html
 <html>
   <head>
     <title>Mi sitio web</title>
