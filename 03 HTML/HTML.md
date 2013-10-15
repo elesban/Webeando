@@ -21,7 +21,7 @@ Las etiquetas o marcas delimitan cada uno de los elementos que componen una pág
 
 Cada elemento que es representado por estas etiquetas pueden contener una a serie de atributos opcionales que pueden añadir ciertas propiedades.
 
-```<etiqueta atributo1="valor" atributo2="valor"></etiqueta>```
+`<etiqueta atributo1="valor" atributo2="valor"></etiqueta>`
 
 Todo lo incluido en en interior de las etiquetas sufrirá las modificiaciones que caracterizan a esta etiqueta. Por ejemplo:
 
@@ -69,6 +69,114 @@ __Ejemplo:__
 ```
 
 El texto dentro de un documento HTML puede tener distintos y variados formatos. Dicho formato puede ser indicado a través de algunas etiquetas o por [hojas de estilo (CSS).](04 Hojas de estilo/Hojas de estilo.md)
+ 
+```
+<html>
+  <head>
+    <title>Mi sitio web</title>
+  </head>
+  <body>
+  	<p>Este es un párrafo <b>con texto en negritas</b>.</p>
+  	<p>Este es otro párrafo <i>con texto en cursiva</i></p>
+  </body>
+</html>
+```
+
+En cuanto a la alineación del texto, el tipo y el tamaño de la fuente y demás, pueden señalarse por medio de atributos dentro de las etiquetas. 
+
+```
+  	<p align="center">Este es un párrafo centrado.</p>
+  	<p color="#83b81a">Este párrafo tiene un color específico</p>
+```
+
+__Importante:__ Muchas de las propiedades que tienen los documentos HTML, son establecidas mediante hojas de estilo por lo que incluirlas como atributos es poco común hoy en día. 
+
+###Enlaces
+
+Un hiperenlace, hipervínculo o vínculo, no es más que un enlace a lleva a otra página o archivo.
+
+El texto o las imágenes que representen un enlace deben estar dentro de las etiquetas `<a></a>`.
+
+El atributo `href`especifica la ruta o dirección de la página destino a la que el usuario será rigido cuando pulse sobre el enlace.
+
+Por ejemplo, si se quisiera incluir un enlace a la página de Wikipedia, se podría incluir el siguiente código
+
+```
+  Este es un enlace a <a href="http://wikipedia.org">Wikipedia</a>
+```
+
+###Imágenes
+
+Uno de los aspectos más vistosos y atractivos de las páginas web son las imágenes. 
+
+La etiqueta que utilizaremos para instertar una imagen es `<img>`. Esta etiqueta no posee un cierre y en ella se especifica el origen o ruta del archivo gráfico mediante en atributo `src`. Ejemplo:
+
+```
+  <img src="images/photo.jpg" >
+```
+
+###Formularios
+
+Un formulario es un elemento que permite recoger datos introducidos por el usuario.
+
+Los formularios se utilizan para conocer las opiniones, dudas y otra serie de datos sobre los usuarios.
+
+Un formulario está formado, entre otras cosas, por etiquetas, campos de texto, menús y botones.
+
+Para insertar un formulario en un documento HTML se utilizan las etiquetas `<form> </form>` y dentro de ellas se agregan los elementos que formarán dicho formulario.
+
+Los atributos más comunes en el uso de formularios son: `action` y `method`. El primero indica una dirección a la cual se enviarán los datos; la segunda indica el método en que será cifrada la información para su envío. 
+
+```
+	<form action="proceso.php" method="POST">
+	...
+	</form>
+```
+
+__Elementos de entrada__
+
+Los campos de texto (input) utilizan la etiqueta `<input >`. Los atributos más comunes son `name` y `type`.
+
+Hay muchos tipos diferentes de "inputs" como `email` (correo), `text` (texto) o `password` (contraseña).
+
+```
+	<form action="proceso.php" method="POST">
+	  <input name="nombre" type="text" >
+	  <input name="contrasenia" type="password" >
+	  <input name="correo" type="email" >
+	</form>
+```
+
+__Casilla de verificación__
+
+Para insertar una casilla de verificación, necesitamos añadir el valor `checkbox` al atributo `type` de un elemento `<input>`. Para indicar que esa casilla está activada se necesita añadir el atributo `checked`.
+
+`<input name="casilla" type="checkbox" checked >`
+
+__Botón de opción__
+
+Los botones de opción requieren el valor `radio` dentro del atributo `type`. Para indicar una que una opción está seleccionada se tiene que indicar a través del atributo `checked`.
+
+```
+<input nombre="opcion1" type="radio" checked>
+<input nombre="opcion2" type="radio" >
+```
+
+__Campos de selección__
+
+
+Si se requiere insertar un menú o una lista desplegable dentro de un formulario se puede incluir un campo de selección, a través de las etiquetas `<select> </select>`. El atributo `name` indica el nombre, el atributo `multiple` indica que se pueden seleccionar varios elementos. 
+
+Los elementos que conforman la lista son instertados entre las etiquetas `<option></option>` y se se quiere mostrar una opción seleccionada por defecto se utiliza el atributo `selected`.
+
+```
+  <select name="opciones"">
+    <option>Uno</option>
+    <option selected>Dos</option>
+    <option>Tres o más</option>
+  </select>
+```
+
 
 
 
