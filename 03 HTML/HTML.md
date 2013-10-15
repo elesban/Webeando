@@ -262,7 +262,7 @@ __div__
 
 Los elementos `div` representan capas generéricas que se incluyen con las etiquetas `<div> </div>` en nuestra página HTML. 
 
-```
+```html
 <html>
   <head>
     <title>Mi sitio web</title>
@@ -340,6 +340,18 @@ El elemento `article` representa un componente independiente y autocontenido de 
 
 
 
+```
+<html>
+  <head>
+    <title>Mi sitio web</title>
+  </head>
+  <body>
+  	<article>
+  	  el contenido del articulo
+  	</article>
+  </body>
+</html>
+```
 
 
 __aside__
