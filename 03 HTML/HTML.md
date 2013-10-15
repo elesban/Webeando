@@ -177,6 +177,13 @@ Los elementos que conforman la lista son instertados entre las etiquetas `<optio
   </select>
 ```
 
+__Áreas de texto__
+
+Las áreas de texto permiten escribir varias líneas de texto dentro de un formulario por lo que suelen usarse para incluir comentarios. Para insertar un área de texto se utilizan las etiquetas `<textarea></textarea>`. En ocasiones se indica el ancho y el alto de este elementro a través de columnas. El atributo `rows` indica el número de líneas que podrán ser visualizadas por lo que determina el alto; el atributo `cols` indica el número de columnas por lo que determina el 
+ancho del elemento.
+
+`<textarea name="comentario" cols="30" rows="4"></textarea>`
+
 
 
 
