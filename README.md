@@ -85,3 +85,4 @@ Webeando Fácil es un curso para la creación de aplicaciones web fácil y rápi
 	- WebAPI’s de Mozilla.
 	
 12. [Glosario.](10 Glosario/Glosario.md)
+Traducido por Elesban
