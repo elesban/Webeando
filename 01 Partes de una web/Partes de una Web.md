@@ -1,12 +1,12 @@
-Partes de una Web
+Keniuj chiujtok se amat taijkitil
 =================
 
 
-Una Aplicacion web ó un sito web que es casi lo mismo se puede dividir en dos grandres areas el **"Frontend"** y el **"Backend"**. 
+Se amat taijkitil kipia ome **"Frontend"** uan **"Backend"**. 
 
 ![Frontend & Backend](media/images/backend-frontend.gif)
 
-La primera que cubriremos en este texto es el area del Frontend el cual es responsable de toda la parte visual de la aplicasion, al igual de la integracion con el dispositivo cliente que puede ser desde un navegador web hasta un dispositivo movil como un smartphone. 
+Tein ti chiuati yin tein ki tokajtia Frontend tein kichihua maj hueli ti kitaj yin aplicacion, no hueli kichihua keniuj muita tech yin taixnextiloni uan no tech yin teposejekatanojnotsaloni. 
 
-La segunda el Backend es la parte que no vemos y se ejecuta en un servidor remoto, esta pieza es vital para muchos sitios ya que es la que nos permite comunicarnos con otros usuarios, almacenar datos, ejecutar procesos entre otras tantas maravilla, pero sera hasta el final que toquemos este tema. 
+No tikpia tik chihuaske yin tein motokajtia Backend nejin amo huel tikita tekiti tech nejin tein ki tokajtia servidor remoto, kikuij miak amat taijkitilme kichua maj hueli tik nojnotsaka to iknihuan, maj tikehuaka to tokay uan okseki miak tamajto ashka, sayo ke nejin tikitaske keman timatamiske. 
 
