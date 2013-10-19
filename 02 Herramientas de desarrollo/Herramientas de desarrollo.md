@@ -1,7 +1,7 @@
-Herramientas de desarrollo
+Toni ti kuiti
 ==========================
 
-Para facilitar el desarrollo de nuestras `app's ` contamos con inumerables herramientas que pueden ir desde editores de texto hastas completos entornos de desarrollo. A contunuacion listamos algunos de los que hemos probado.
+Maj ohuij tik chihuaske to app hueli tikuiske seki mapalehuilis kemej seki tein tech palehui taijkuiloskeo. Nikan na mech nextilia tein tejua tikuikejya.
 
 - Notepad++
 - Sublime Text
@@ -13,4 +13,4 @@ Para facilitar el desarrollo de nuestras `app's ` contamos con inumerables herra
 - Aptana
 - Eclipse
 
-Dejamos la elección final al estudiante.
+Huelis tikuis tein mas tik huelitas.
