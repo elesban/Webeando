@@ -1,11 +1,10 @@
 HTML
 ====
 
-HTML son las siglas de HyperText Markup Language («lenguaje de marcas de hipertexto»), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que, en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, etc. Es un estándar a cargo de la W3C, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación.
+HTML kijtosneki HyperText Markup Language (koyolkopa «lenguaje de marcas de hipertexto»), tech palehuia maj tik chihuaka amat taijkitil. Tech ilia keniuj tik chihuaskese amat taikitil, toni ki huika uan yin ki tokaytia "código" (tein no kilia "código HTML") tech to amat taijkitil huelis ki huikas tajkuilol, amaixyekauilmej. Tein ki ixyekana monotsa W3C, yin nechikol tein kichiua kinintayekana nochime tein kineki kichiuaske teisa tein kipia ki kitas web, mas keniuj ki ijkuiloske uan keniuj mo nextia.
+										Yin HTML mo tsintalia nejin ki tokaytia "referenciación". Ton kijtoskeni ke si tik neki tik talilis se amaixyekauil, videotl, "script", yin amo yuuik tech yin "código" de to amat taijkitil, sino sayo ti kilia de kani kikuis. Yin kijtosneki ke to amat taijkitil sayo kipia tajkuilol maj monexti ton tikchiujke yin tekit de nejin taixnextiloni (interpretador del código) ni tekit kinin salohua nochi tein tichiujke uan tech nextilia keniuj mokahuak. Onkake miak taixnextilonime, nejin HTML ni tekit ke hueli tikiuis taixnextiloni tein mas tik huelitas uan huelis tikitas maski tikuis okse taixnextiloni.[1]
 
-El lenguaje HTML basa su filosofía de desarrollo en la referenciación. Para añadir un elemento externo a la página (imagen, vídeo, script, etc.), este no se incrusta directamente en el código de la página, sino que se hace una referencia a la ubicación de dicho elemento mediante texto. De este modo, la página web contiene sólo texto mientras que recae en el navegador web (interpretador del código) la tarea de unir todos los elementos y visualizar la página final. Al ser un estándar, HTML busca ser un lenguaje que permita que cualquier página web escrita en una determinada versión, pueda ser interpretada de la misma forma (estándar) por cualquier navegadores web actualizado.[1]
-
-El lenguaje HTML puede ser creado y editado por cualquier editor de textos básico, como *Bloc de notas* de Windows o *Gedit* en Linux. Existen otros editores para la realizaciòn de sitios web con características gráficas que permiten ver el resultado de lo que se está editando en tiempo real.
+Yin HTMl huelis tik chihuas uan tik yek chihuas ika se "editor e textos" kemej tin ki tokaytia "bloc de notas" tech "Windows" o no "Gedit" tech yin "Linux" onkake okseki miak tama "editor de textos" tein huelis tikuis.
 
 ====
 
