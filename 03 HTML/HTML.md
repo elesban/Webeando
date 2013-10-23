@@ -12,21 +12,21 @@ Yin HTMl huelis tik chihuas uan tik yek chihuas ika se "editor e textos" kemej t
 
 
 
-Las etiquetas o marcas delimitan cada uno de los elementos que componen una página web; por lo regular, presentan dos partes:
+Nejin ki tokaytia "etiquetas" no "marcas" tech ilia kani pehua uan kani tami to amat taijkitil; kipia ome 
 
-*Una apertura:*  `<etiqueta>`
+*Tein ki tapohua:*  `<etiqueta>`
 
-*Un cierre:* `</etiqueta>`
+*Tein ki tsakua:* `</etiqueta>`
 
-Cada elemento que es representado por estas etiquetas pueden contener una a serie de atributos opcionales que pueden añadir ciertas propiedades.
+Nochi tein tik talilia "etiquetas" hueli kipias seki "atributos" tein ki palehuia keniuj muitas.
 
 `<etiqueta atributo1="valor" atributo2="valor"></etiqueta>`
 
-Todo lo incluido en en interior de las etiquetas sufrirá las modificiaciones que caracterizan a esta etiqueta. Por ejemplo:
+Nochi tein tik taliliske nejin "etiquetas" ki chihuas maj mo pata . Nika tikpia keniuj muitas:
 
-`<b>Este texto está en negrita</b>`
+`<b>Yin tajtol etok tiltik</b>`
 
-Las etiquetas `<b></b>` definen un texto en negrita. El resultado sería el siguiente:
+Yin "etiquetas" `<b></b>` ki talia tajtol tiltika. Keniuj tikitaske yetok nika tani:
 
 __Este texto está en negritas__
 
