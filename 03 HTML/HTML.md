@@ -28,15 +28,15 @@ Nochi tein tik taliliske nejin "etiquetas" ki chihuas maj mo pata . Nika tikpia 
 
 Yin "etiquetas" `<b></b>` ki talia tajtol tiltika. Keniuj tikitaske yetok nika tani:
 
-__Este texto está en negritas__
+__Yin tajtol etok tiltik__
 
-Se debe tomar en cuenta que un documento HTML debe de estar delimitado por la etiqueta `<html>/<html>`. Dentro de este documento, podemos distinguir dos partes principales:
+No kipia tikitaske tech to amat HTML maj kipia `<html>/<html>`. Taijtik nejin kipia mo kotonaj en ome:
+										
+*El encabezado*, tein se kitalia ika  `<head></head>` nika tik talia "etiquetas" "informativas" kemj keniuj monotsas to amat taijkitil.
 
-*El encabezado*, definido por `<head></head>` donde se colocan etiquetas "informativas" como el título de nuestra página.
+*El cuerpo*, tein se kitalia ika `<body></body>`, nika kiuika tajtol, amaixyekauilmej, uan okseki tamamej tein kiuika to amat taijkitil.
 
-*El cuerpo*, definido por las etiqutas `<body></body>`, donde se colocan el texto, imágenes, enlaces y demás elementos que conforman una página.
-
-De este modo, podríamos definir lo que sería la estructura básica de un documento HTML con un título.
+Tik piajya, keniuj tik chiuaske se amat HTML ika ni tokay.
 
 ```html
 <html>
@@ -49,11 +49,11 @@ De este modo, podríamos definir lo que sería la estructura básica de un docum
 
 ###Texto
 
-El texto puede insertarse libremente dentro de la etiqueta body y ser desplegado en la página; sin embargo, existen opciones para darle formato de manera sencilla.
+Tajtol ulis tik taliske kampa tik nekiske taijtik nejin "etiqueta body" uan nejin muitas tech to amat; no ueli tik taliliske keniuj muitas, ton tanto hueyi.
 
-Una de las opciones más usadas son los párrafos. Los párrafos sirven para designar líneas de texto que guardan la misma alineación y propiedades. Para definirlos, se utiliza la etiqueta `<p> </p>`. Es importante destacar que los saltos de línea dentro de esta etiqueta no se definen con la tecla *Enter*. Para dar un salto de línea se utiliza la etiqueta `<br>`.
+Tein telsenka se kikuik nejin ki tokaytia "párrafos". Nejin "párrafos" kualtiaj maj muita kuali nejin tajtol uan kipiaj okseki "propiedades". Maj uelis tikuiske tikpia nejin "etiqueta" `<p> </p>`. Kipia timitsiliske keman ti tajkuilostos uan tik nekis maj ki sentoka tani amo tikuij yin "tecla" *Enter*. Maj uelis tik panoske tani tikuij yin "etiqueta" `<br>`.
 
-__Ejemplo:__
+__Maj tikitaka keniuj:__
 
 ```html
 <html>
@@ -61,8 +61,8 @@ __Ejemplo:__
     <title>Mi sitio web</title>
   </head>
   <body>
-  	<p>Este es un párrafo.</p>
-  	<p>Este es otro párrafo <br> con un salto de línea</p>
+  	<p>Yin se "párrafo".</p>
+  	<p>Yin okse "parráfo" <br> uan yin mojkuiloua tani</p>
   </body>
 </html>
 ```
