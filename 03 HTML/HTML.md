@@ -47,7 +47,7 @@ Tik piajya, keniuj tik chiuaske se amat HTML ika ni tokay.
 </html>
 ```
 
-###Texto
+###Tajtol
 
 Tajtol ulis tik taliske kampa tik nekiske taijtik nejin "etiqueta body" uan nejin muitas tech to amat; no ueli tik taliliske keniuj muitas, ton tanto hueyi.
 
@@ -67,7 +67,7 @@ __Maj tikitaka keniuj:__
 </html>
 ```
 
-El texto dentro de un documento HTML puede tener distintos y variados formatos. Dicho formato puede ser indicado a través de algunas etiquetas o por [hojas de estilo (CSS).](04 Hojas de estilo/Hojas de estilo.md)
+Tajtol tein kipia se amat HTML ulis kipias miak tamamej. Yin tamamej ueli tik taliske ika seki "etiquetas" no ika yin ki tokaytia [hojas de estilo (CSS).](04 Hojas de estilo/Hojas de estilo.md)
  
 ```html
 <html>
@@ -75,24 +75,24 @@ El texto dentro de un documento HTML puede tener distintos y variados formatos. 
     <title>Mi sitio web</title>
   </head>
   <body>
-  	<p>Este es un párrafo <b>con texto en negritas</b>.</p>
-  	<p>Este es otro párrafo <i>con texto en cursiva</i></p>
+  	<p>Yin se "párrafo" <b>ika tajtol tiltik</b>.</p>
+  	<p>Yin okse "parráfo" <i>ika tajtol matajkuilol</i></p>
   </body>
 </html>
 ```
 
-En cuanto a la alineación del texto, el tipo y el tamaño de la fuente y demás, pueden señalarse por medio de atributos dentro de las etiquetas. 
+No ueli tik yektaliske tajtol, keniuj muitas uan no ton tanto hueyi muitas yin ueli tik chiuaske taijtik nejin "etiquetas". 
 
 ```html
-  	<p align="center">Este es un párrafo centrado.</p>
-  	<p color="#83b81a">Este párrafo tiene un color específico</p>
+  	<p align="center">Yin "parráfo" etok tatajko.</p>
+  	<p color="#83b81a">Yin "parráfo" kipia se tapal</p>
 ```
 
-__Importante:__ Muchas de las propiedades que tienen los documentos HTML, son establecidas mediante hojas de estilo por lo que incluirlas como atributos es poco común hoy en día. 
+__Xi kelnamiki:__ Miak nejin "propiedades" tein kipia amamej HTML, se kichiuak itech nekin mo tokaytia "hojas de estilo" kasi amo mokui kemej "atributos". 
 
 ###Encabezados
 
-Los encabezados nos proporcionan una valiosa herrmamienta para destacar temas importantes y títulos así como destacar la naturaleza del documento en conjunto.
+Neij " encabezados" tech maka miak matekilis maj  para destacar temas importantes y títulos así como destacar la naturaleza del documento en conjunto.
 
 Hay seis niveles de encabezados en HTML especificados por las etiquetas `<h1></h1>`, `<h2></h2>`, `<h3></h3>`, `<h4></h4>`, `<h5></h5>` y `<h6></h6>`. 
 
