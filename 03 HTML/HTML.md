@@ -139,15 +139,15 @@ Maj tiktalika se amaixyekauil tik kuiti nejin "etiqueta" `<img>`. Nejin "etiquet
 
 ###Formularios
 
-Un formulario es un elemento que permite recoger datos introducidos por el usuario.
+Yin kitokaytia "formulario" tehc paleuia maj tik kixtika "datos" tein kitaliaj tein kikui to amataijkitil.
 
-Los formularios se utilizan para conocer las opiniones, dudas y otra serie de datos sobre los usuarios.
+Nejin "formularios" mokuij keman tikneki tikixmatiske toni tanemilia nokseki, si kineki tajtaniske teisa uan okseki "datos" tein kikuij mo amataijkitil.
 
-Un formulario está formado, entre otras cosas, por etiquetas, campos de texto, menús y botones.
+Se "formulario" kipia "etiquetas, campos de texto, menús y botones".
 
-Para insertar un formulario en un documento HTML se utilizan las etiquetas `<form> </form>` y dentro de ellas se agregan los elementos que formarán dicho formulario.
+Maj tik talika se "formulario" tech to amat HTML tikuij "etiquetas" `<form> </form>` uan taijtik tik talilia "elementos" nejin "formulario".
 
-Los atributos más comunes en el uso de formularios son: `action` y `method`. El primero indica una dirección a la cual se enviarán los datos; la segunda indica el método en que será cifrada la información para su envío. 
+"Atributos" tein se kinikuik monotsa: `action` y `method`. Se techilia kani yaske nejin "datos"; uan nokse techilia keniuj yas yin tanojnotsalis. 
 
 ```html
 	<form action="proceso.php" method="POST">
@@ -157,9 +157,9 @@ Los atributos más comunes en el uso de formularios son: `action` y `method`. El
 
 __Elementos de entrada__
 
-Los campos de texto (input) utilizan la etiqueta `<input >`. Los atributos más comunes son `name` y `type`.
+Nejin kitokaytia campos de texto (input) kikuij "etiqueta" `<input >`. Atributos tein kikuik `name` y `type`.
 
-Hay muchos tipos diferentes de "inputs" como `email` (correo), `text` (texto) o `password` (contraseña).
+Onkake miak tama "inputs" kemej `email` (correo), `text` (texto) o `password` (contraseña).
 
 ```html
 	<form action="proceso.php" method="POST">
@@ -171,13 +171,13 @@ Hay muchos tipos diferentes de "inputs" como `email` (correo), `text` (texto) o 
 
 __Casilla de verificación__
 
-Para insertar una casilla de verificación, necesitamos añadir el valor `checkbox` al atributo `type` de un elemento `<input>`. Para indicar que esa casilla está activada se necesita añadir el atributo `checked`.
+Maj tiktalika nejin kitokaytia "casilla de verificación", kipia tiliske nejin valor `checkbox` al atributo `type` tech se elemento `<input>`.
 
 `<input name="casilla" type="checkbox" checked >`
 
 __Botón de opción__
 
-Los botones de opción requieren el valor `radio` dentro del atributo `type`. Para indicar una que una opción está seleccionada se tiene que indicar a través del atributo `checked`.
+Nejin kitokaytia "botones de opción" kihuika valor `radio` itech "atributo" `type`.
 
 ```html
 <input nombre="opcion1" type="radio" checked>
@@ -192,7 +192,7 @@ Si se requiere insertar un menú o una lista desplegable dentro de un formulario
 Los elementos que conforman la lista son instertados entre las etiquetas `<option></option>` y se se quiere mostrar una opción seleccionada por defecto se utiliza el atributo `selected`.
 
 ```html
-  <select name="opciones"">
+  <select name="opciones">
     <option>Uno</option>
     <option selected>Dos</option>
     <option>Tres o más</option>
