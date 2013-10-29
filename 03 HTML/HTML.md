@@ -187,9 +187,9 @@ Nejin kitokaytia "botones de opción" kihuika valor `radio` itech "atributo" `ty
 __Campos de selección__
 
 
-Si se requiere insertar un menú o una lista desplegable dentro de un formulario se puede incluir un campo de selección, a través de las etiquetas `<select> </select>`. El atributo `name` indica el nombre, el atributo `multiple` indica que se pueden seleccionar varios elementos. 
+Keman tiknekiske se "menú o una lista desplegable" taijtik nejin "formulario" hueli tik taliliske se campo de selección, ika nejin "etiqueta" `<select> </select>`. Nejin "atributo" `name` tech ilia nitokay, nejin "atributo" `multiple` no hueli tikuiske. 
 
-Los elementos que conforman la lista son instertados entre las etiquetas `<option></option>` y se se quiere mostrar una opción seleccionada por defecto se utiliza el atributo `selected`.
+Nejin "Elementos" tein kihuika "lista" yuhui ikan yin "etiquetas" `<option></option>`.
 
 ```html
   <select name="opciones">
@@ -201,37 +201,36 @@ Los elementos que conforman la lista son instertados entre las etiquetas `<optio
 
 __Áreas de texto__
 
-Las áreas de texto permiten escribir varias líneas de texto dentro de un formulario por lo que suelen usarse para incluir comentarios. Para insertar un área de texto se utilizan las etiquetas `<textarea></textarea>`. En ocasiones se indica el ancho y el alto de este elementro a través de columnas. El atributo `rows` indica el número de líneas que podrán ser visualizadas por lo que determina el alto; el atributo `cols` indica el número de columnas por lo que determina el 
-ancho del elemento.
+Nejin kitokaytia "áreas de texto" se hueli tajkuiloua miak tajtol. Maj tiktalika se "área de texto" se kikui nejin "etiquetas" `<textarea></textarea>`. Huelis se kitalilis ton tanto hueyi eski ika yin "atributo" `rows` uan no ika yin "atributo" `cols`.
 
 `<textarea name="comentario" cols="30" rows="4"></textarea>`
 
 
 ###Audio y video
 
-Las nuevas especificaciones de HTML5 incluyen etiquetas que nos permiten integrar contenidos miultimedia sin necesidad de complementos del navegador donde se ve el documento, las etiquetas `<video>` y `<audio>` sirven para integrar video y audio en las páginas web de la misma forma en que se insertan imágenes con la etiqueta `<img>`.
+Nejin kitokaytia HTML5 kipia seki "etiquetas" tein ika se huelis tiktaliske ikan nejin "etiquetas" `<video>` y `<audio>` se "video uan audio" tech to amataijkitil kemej se kitalia se amaixyekauil ikan "etiqueta" `<img>`.
 
-Para incrustar un video dentro de la página web se puede hacer de la siguiente manera:
+Maj se kitali se "video" taijtik tech no amataijkitil se hueli tik chihuaske ijko:
 
 `<video src="video.mp4" width="400" height="300"></video>`.
 
-De manera similar, agregar un archivo de audio podría realizarse así:
+No nejin "audio" hueli se ki chihuas ijko:
 
 `<audio src="audio.mp3" controls></audio>`
 
-El atributo `controls` le indica al navegador que incluya los controles para reproducir, pausar y adelantar la pista si es el caso.
+Nejin "atributo" `controls` ki lia to taixnextiloni maj muita nejin "controles" tein monotsa "reproducir, pausar y adelantar".
 
 ###Dibujo y animación
 
-La etiqueta `<canvas>` dota al lenguale HTML de un formato nativo para el dibujo y la animación. Esta plataforma puede ser una alternativa para los gráficos y animaciones que al día de hoy podemor ver en películas Flash.
+Nejin "etiqueta" `<canvas>` tehcmaka tech nejin HTML keniuj tik chihuaske se "dibujo uan animación".
 
-El elemento `canvas` funciona a modo de superficie de dibujo dentro de una página web (de ahí el nombre). Dentro de esta superficie podemos crar formas con colores, gradientes y patrones de relleno, mostrar texto y exportar los contenidos hacia archivos de imagen estática como `.png`. Podemos utilizar javaScript o las nuevas funciones de animación en CSS para que los objtos que creamos puedan moverse, desaparecer, cambiar de tamaño, etcétera.
+Nejin `canvas` kualti maj se kichiuas se "dibujo" taijtik tech to amataijkitil. Taijtik se huelis taliliske tapatal, no nejin kitokaytia "gradientes y patrones de relleno", no tik nextika tajtol, uan huelis ti keuas mo amaixyekauil kemej `.png`. No huelis ti kuiske yin kitokaytiaj "javaScript" no nejin kilia "animación en CSS" kichiua majmolini to amaixyekauilmek, maj motatikaj, uan okseki tamaj.
 
-Para incorporar un elemento `canvas` se utiliza las etiquetas `<canvas> </canvas>`.
+Maj tiktalika se "elemento" `canvas` se kikuik "etiquetas" `<canvas> </canvas>`.
 
 `<canvas id="dibujo"></canvas>`.
 
-La funcionalidad se puede añadir con [código JavaScript.](05 JavaScript/JavaScript.md).
+No hueli se ki talilis [código JavaScript.](05 JavaScript/JavaScript.md).
 
 ```html
 <html>
