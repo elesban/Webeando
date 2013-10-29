@@ -4,7 +4,7 @@ HTML
 HTML kijtosneki HyperText Markup Language (koyolkopa «lenguaje de marcas de hipertexto»), tech palehuia maj tik chihuaka amat taijkitil. Tech ilia keniuj tik chihuaskese amat taikitil, toni ki huika uan yin ki tokaytia "código" (tein no kilia "código HTML") tech to amat taijkitil huelis ki huikas tajkuilol, amaixyekauilmej. Tein ki ixyekana monotsa W3C, yin nechikol tein kichiua kinintayekana nochime tein kineki kichiuaske teisa tein kipia ki kitas web, mas keniuj ki ijkuiloske uan keniuj mo nextia.
 										Yin HTML mo tsintalia nejin ki tokaytia "referenciación". Ton kijtoskeni ke si tik neki tik talilis se amaixyekauil, videotl, "script", yin amo yuuik tech yin "código" de to amat taijkitil, sino sayo ti kilia de kani kikuis. Yin kijtosneki ke to amat taijkitil sayo kipia tajkuilol maj monexti ton tikchiujke yin tekit de nejin taixnextiloni (interpretador del código) ni tekit kinin salohua nochi tein tichiujke uan tech nextilia keniuj mokahuak. Onkake miak taixnextilonime, nejin HTML ni tekit ke hueli tikiuis taixnextiloni tein mas tik huelitas uan huelis tikitas maski tikuis okse taixnextiloni.[1]
 
-Yin HTMl huelis tik chihuas uan tik yek chihuas ika se "editor e textos" kemej tin ki tokaytia "bloc de notas" tech "Windows" o no "Gedit" tech yin "Linux" onkake okseki miak tama "editor de textos" tein huelis tikuis.
+Yin HTMl huelis tik chihuas uan tik yek chihuas ika se "editor de textos" kemej tin ki tokaytia "bloc de notas" tech "Windows" o no "Gedit" tech yin "Linux" onkake okseki miak tama "editor de textos" tein huelis tikuis.
 
 ====
 
@@ -92,9 +92,9 @@ __Xi kelnamiki:__ Miak nejin "propiedades" tein kipia amamej HTML, se kichiuak i
 
 ###Encabezados
 
-Neij " encabezados" tech maka miak matekilis maj  para destacar temas importantes y títulos así como destacar la naturaleza del documento en conjunto.
+Neij "encabezados" tech maka miak matekilis maj tik neshtika de toni tik tajtoua.
 
-Hay seis niveles de encabezados en HTML especificados por las etiquetas `<h1></h1>`, `<h2></h2>`, `<h3></h3>`, `<h4></h4>`, `<h5></h5>` y `<h6></h6>`. 
+Onkake chikuase tamaj "encabezados" HTML uan se kininkijkuiloua  `<h1></h1>`, `<h2></h2>`, `<h3></h3>`, `<h4></h4>`, `<h5></h5>` y `<h6></h6>`. 
 
 ```html
   <h1>Encabezado nivel 1</h1>
@@ -107,31 +107,31 @@ Hay seis niveles de encabezados en HTML especificados por las etiquetas `<h1></h
 
 ###Listas
 
-HTML ofrece varios mecanismos para especificar listas de información. Todas las listas deben contener uno o más objetos. Las listas pueden contener:
+HTML tech maka seki tamaj maj tik talika yin tanojnotsalis. Nejin "listas" kipias tajkuilolis kemej:
 
-* Información no ordenada.
-* Información ordenada.
-* Definiciones.
+* Tanojnotsalis tein amo yektalijtok.
+* Tanojnotsalis tein yektalijtok.
+* "Definiciones."
 
 ###Enlaces
 
-Un hiperenlace, hipervínculo o vínculo, no es más que un enlace a lleva a otra página o archivo.
+Se hiperenlace, hipervínculo o vínculo, tech huika okse amat taijkitil.
 
-El texto o las imágenes que representen un enlace deben estar dentro de las etiquetas `<a></a>`.
+Tajtol o nejin amaixyekauilme tein kipia se "enlace" kipia etoske taijtik nejin "etiquetas" `<a></a>`.
 
-El atributo `href`especifica la ruta o dirección de la página destino a la que el usuario será rigido cuando pulse sobre el enlace.
+Nejin `href` tech ilia kani tech huikas nejin "enlace".
 
-Por ejemplo, si se quisiera incluir un enlace a la página de Wikipedia, se podría incluir el siguiente código
+Maj tikitak keniuj se kichiua, tik chiuati se "enlace" tein tech huikas "Wikipedia", tikpia tik taliske nejin "código".
 
 ```
   Este es un enlace a <a href="http://wikipedia.org">Wikipedia</a>
 ```
 
-###Imágenes
+###Amaixyekauilmej
 
-Uno de los aspectos más vistosos y atractivos de las páginas web son las imágenes. 
+Tein mas mokui tech nejin amataijkitil uan tein kichiua maj kuali muita to amat  ti takaytiti amaixyekauilmej. 
 
-La etiqueta que utilizaremos para instertar una imagen es `<img>`. Esta etiqueta no posee un cierre y en ella se especifica el origen o ruta del archivo gráfico mediante en atributo `src`. Ejemplo:
+Maj tiktalika se amaixyekauil tik kuiti nejin "etiqueta" `<img>`. Nejin "etiqueta" amo motsakua kemej nokseki tein tikitakejya, sayo tikilia de kani tikuiti neji amaixyekauil ikan nejin "atributo" `src`. Maj tikitak kenuij:
 
 ```html
   <img src="images/photo.jpg" >
