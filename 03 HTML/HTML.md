@@ -250,15 +250,15 @@ No hueli se ki talilis [código JavaScript.](05 JavaScript/JavaScript.md).
 ```
 
 
-El código anterior dibuja un rectángulo con color (mediante el método `fillRect`) de un tamaño y una posición determinados (por medio de los argumentos del mismo método).
+Nejin "código" ki chajkuiloua se "rectángulo" ika tapatal (ikan yin "método" `fillRect`) ki talilia se "tamaño" uan se "posición".
 
 ###Etiquetas semánticas
 
-Las etiquetas semánticas representan bloques enteros que agrupan a otros elementos HTML y que permiten una mejor división del contenido y por ende una mejor semántica.
+Ikan yin kitokaytia "etiquetas semánticas" hueli se ki talia itech "bloques" nejin "elementos HTML" tech palehuia maj tik maj amo ihuij se kita.
 
 __div__
 
-Los elementos `div` representan capas generéricas que se incluyen con las etiquetas `<div> </div>` en nuestra página HTML. 
+Nejin "elementos" `div` no tech palehuia maj muita kuali  to amat uan se kininchiua ika nejin "etiquetas" `<div> </div>`. 
 
 ```html
 <html>
@@ -275,7 +275,7 @@ Los elementos `div` representan capas generéricas que se incluyen con las etiqu
 
 __header__
 
-Este elemento nos permite identificar la cabecera de la página. Típicamente, dentro de este elemento se colocan el logotipo y nombre de la empresa, el menú de navegación, etcétera. Para incrustar un elemento `header` en nuestra página, se deben utilizar las etiquetas `<header></header>`.
+Yin "elemento" se hueli tikitaske nejin "cabecera de la página". Tech yin "elemento" yuhuik "logotipo" uan tokay de nejin "empresa", no yin "menú de navegación". Maj tiktaliske  nejin "elemento" `header` tech to amat, tikuij nejin "etiquetas" `<header></header>`.
 
 ```html
 <body>
@@ -287,7 +287,7 @@ Este elemento nos permite identificar la cabecera de la página. Típicamente, d
 
 __footer__
 
-Las etiquetas `<footer></footer>` definen el 'pie' de una página. El pie de una página web por lo regular contiene información sobre su autor, derechos de autor, enlaces a términos de uso, contacto, etcétera.
+Nejin "etiqueta" `<footer></footer>` techilia ton kiuika tech yin kitokaytia 'pie' de una página. Nejin "pie de una página web"  kiuika tanojnotsalis akon ki chijchiuj, kani huelis tik kasis tein ki ijkuilo yin amataijkitil.
 
 ```html
 <body>
@@ -301,10 +301,9 @@ Las etiquetas `<footer></footer>` definen el 'pie' de una página. El pie de una
 __nav__
 
 
-El elemento `nav` define los enlaces de navegación dentro de un sitio web.
+Yin "elemento" `nav` kipia yin ki tokaytia "enlaces de navegación" tech to amataijkitil.
 
-Se debe de tomar en cuenta que no todos los enlaces deben de estar dentro del elemento `nav` sino solo los más importantes o que contengan más información.
-
+Amo nochime yin "enlaces" kipia ke yaske tech yin "elemento" `nav` 
 ```html
 <body>
   	<nav>
@@ -316,7 +315,7 @@ Se debe de tomar en cuenta que no todos los enlaces deben de estar dentro del el
 __section__
 
 
-Como su nombre lo indica, el elemento `section` define secciones dentro de las páginas web como capítulos, encabezados, etcétera. Las secciones se definen con las etiquetas `<section></section>`.
+Kemej ni tokay kijtoua yin "elemento" `section` tech palehuia kemn tikneki tiktaliske "capítulos, encabezados, etcétera". Mo talia ika yin "etiquetas" `<section></section>`.
 
 
 ```html
@@ -334,8 +333,7 @@ Como su nombre lo indica, el elemento `section` define secciones dentro de las p
 
 __article__
 
-El elemento `article` representa un componente independiente y autocontenido de una página web. Puede presentar un artículo, artículo de opinión, una entrada de un blog, etcétera.
-
+No etok yin "elemento" `article` yin kualtia keman tiknekiske tik taliske se "artículo", "artículo de opinión", no se "blog".
 
 
 ```html
@@ -354,7 +352,7 @@ El elemento `article` representa un componente independiente y autocontenido de 
 
 __aside__
 
-El elemento `aside` representa una sección de una página que tiene relación con el contenido que está mostrando una página web y que podría ser considerado por separado de ese contenido. Estas secciones a menudo representado como barras laterales y también llamadas 'sidebar'.
+Yin "elemento" `aside` tech palehuia keman tikneki tik nextiske tajtol tech to amat uan tikneki maj muita mas nejin tajtol ni ixpa. No ki tokaytiaj 'sidebar'.
 
 ```html
 <html>
