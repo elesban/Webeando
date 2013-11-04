@@ -72,7 +72,7 @@ h1, h2, h3 {
 
 ##Selector descendente
 
-Selecciona los elementos que se encuentran dentro de otros elementos. Un elemento es descendiente de otro cuando se encuentra entre las etiquetas de apertura y de cierre del otro elemento. El selector del siguiente ejemplo selecciona todos los elementos ```<span>``` de la página que se encuentren dentro de un elemento ```<p>```:
+Yin kualtia Selecciona los elementos que se encuentran dentro de otros elementos. Un elemento es descendiente de otro cuando se encuentra entre las etiquetas de apertura y de cierre del otro elemento. El selector del siguiente ejemplo selecciona todos los elementos ```<span>``` de la página que se encuentren dentro de un elemento ```<p>```:
 
 ```css
 p span {
