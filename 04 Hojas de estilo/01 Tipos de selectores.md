@@ -1,13 +1,13 @@
 Tipo de selectores CSS.
 =============================
 
-Los selectores son imprescindibles para aplicar de forma correcta los estilos CSS en una página.
+Nejin kitokaytia "selectores" mokuij miak maj kuali se kikuij nejin kitokaytia "estilos CSS" tech to amataijkitil.
 
-A un mismo elemento HTML se le pueden aplicar varias reglas CSS y cada regla CSS puede aplicarse a un número ilimitado de elementos. En otras palabras, una misma regla puede aplicarse sobre varios selectores y un mismo selector se puede utilizar en varias reglas.
+Tech se "elemento HTML"  se hueli kitalilia miak "reglas CSS" uan se nejin "regla CSS" hueli se kitalilia miak "elementos". Tein kijtosneki, se "regla" hueli se kitalilis a miak nejin "selectores" uan se "selector" huelis kikuis miak "reglas".
 
 ##Selector universal
 
-Se utiliza para seleccionar todos los elementos de la página. El siguiente ejemplo elimina el margen y el relleno de todos los elementos HTML:
+Ikan nejin huelis se kitalilis nochimej "elementos" nejin to amataijkitil. Maj tikitaka keniuj se ki kixtilia "margen" uan "relleno" nochimej nejin "elementos HTML":
 
 ```css
 * {
@@ -17,14 +17,14 @@ Se utiliza para seleccionar todos los elementos de la página. El siguiente ejem
 ```
 
 ```
-* --> Este símbolo indica un selector universal
+* --> Ikan nejin tajtol tikixmatiske "selector universal"
 ```
 
-El selector universal se indica mediante un asterisco (*). A pesar de su sencillez, no se utiliza habitualmente, ya que es difícil que un mismo estilo se pueda aplicar a todos los elementos de una página.
+Nejin "selector universal" se kijkuiloua ika se "asterisco" (*). Kasi amo mokui, uan tejua no amo tikuiske.
 
 ##Selector de tipo o etiqueta
 
-Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del selector. El siguiente ejemplo selecciona todos los párrafos de la página:
+Nejin mokui keman nejin "etiqueta HTML" motokaytia kemej nejin "selector". Maj tikitaka keniuj se kikui:
 
 ```css
 p {
@@ -33,12 +33,12 @@ p {
 ```
 
 ```
-p --> En CSS es el tipo de selector, lo mismo que para HTML sería la etiqueta <p>
+p --> Tech "CSS" uan no tech nejin HTML mokui nejin "etiqueta" <p>
 ```
 
-Para utilizar este selector, solamente es necesario indicar el nombre de una etiqueta HTML (sin los caracteres < y >) correspondiente a los elementos que se quieren seleccionar.
+Keniuj maj se kikui nejin "selector", sayo tik kijkuiloua kemej nejin "etiqueta HTML" (uan amo tikitalilia < uan >).
 
-Si se quiere aplicar los mismos estilos a dos etiquetas diferentes, se pueden encadenar los selectores. En el siguiente ejemplo, los títulos de sección h1, h2 y h3 comparten los mismos estilos:
+Si tikneki tiktaliske nejin "estilos" techo ome "etiquetas", hueli tikin sentaliske nejin "selectores". Maj tikitaka keniuj tikin sentaliske h1, h2 y h3 tein kipiaj nejin "estilos":
 
 ```css
 h1 {
@@ -60,7 +60,7 @@ h3 {
 }
 ```
 
-En este caso, CSS permite agrupar todas las reglas individuales en una sola regla con un selector múltiple. Para ello, se incluyen todos los selectores separados por una coma (,) y el resultado es que la siguiente regla CSS es equivalente a las tres reglas anteriores:
+Kemej tikita, huelis tikin sentaliske. Sayo tikintalilia se "coma" (,) uan ijko muitas si tikin sentalia:
 
 ```css
 h1, h2, h3 {
