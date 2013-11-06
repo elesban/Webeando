@@ -72,7 +72,7 @@ h1, h2, h3 {
 
 ##Selector descendente
 
-Yin kualtia Selecciona los elementos que se encuentran dentro de otros elementos. Un elemento es descendiente de otro cuando se encuentra entre las etiquetas de apertura y de cierre del otro elemento. El selector del siguiente ejemplo selecciona todos los elementos ```<span>``` de la página que se encuentren dentro de un elemento ```<p>```:
+Yin kualtia keman tikneki nejin "elementos" tein etoke taijtik de okseki "elementos". Se "elemento" kilia "descendiente" keman etok ikan yin "etiquetas" tein tapoua uan tein tsakua se "elemento". Maj tikitaka keniuj ikan yin "elemento" ```<span>``` de la página que se encuentren dentro de un elemento ```<p>```:
 
 ```css
 p span {
