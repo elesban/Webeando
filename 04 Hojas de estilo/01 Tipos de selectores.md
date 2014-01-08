@@ -72,7 +72,7 @@ h1, h2, h3 {
 
 ##Selector descendente
 
-Yin kualtia keman tikneki nejin "elementos" tein etoke taijtik de okseki "elementos". Se "elemento" kilia "descendiente" keman etok ikan yin "etiquetas" tein tapoua uan tein tsakua se "elemento". Maj tikitaka keniuj ikan yin "elemento" ```<span>``` de la página que se encuentren dentro de un elemento ```<p>```:
+Yin kualtia keman tikneki nejin "elementos" tein etoke taijtik de okseki "elementos". Se "elemento" kilia "descendiente" keman etok ikan yin "etiquetas" tein tapoua uan tein tsakua se "elemento". Maj tikitaka keniuj ikan yin "elemento" ```<span>``` tein etok taijtik nejin "elemento" ```<p>```:
 
 ```css
 p span {
@@ -80,7 +80,7 @@ p span {
 }
 ```
 
-Si el código HTML de la página es el siguiente:
+Uan tik piaj tech to "código HTML":
 
 ```html
 <p>
@@ -88,7 +88,7 @@ Si el código HTML de la página es el siguiente:
 </p>
 ```
 
-Los selectores descendentes permiten aumentar la precisión del selector de tipo o etiqueta. Así, utilizando el selector descendente es posible aplicar diferentes estilos a los elementos del mismo tipo. El siguiente ejemplo muestra de color azul todo el texto de los ```<span>``` contenidos dentro de un ```<h1>```:
+Yin ki tokaytiaj "selectores descendentes" tech paleuia ika nejin ki tokaytiaj "selector de tipo o etiqueta". Keman tikuij yin "selector descendente" uel tik taliliske miak tamaj "estilos" tech se "elemento". Maj tikitak keniuj yin tajtol muita iluitik tech yin ```<span>``` tein yetok taijtik nejin ```<h1>```:
 
 ```css
 p span {
@@ -100,15 +100,15 @@ h1 span {
 }
 ```
 
-Con las reglas CSS anteriores:
+Ikan yin "reglas CSS" tikitaj :
 
-- Los elementos ```<span>``` que se encuentran dentro de un elemento ```<p>``` se muestran de color rojo.
-- Los elementos ```<span>``` que se encuentran dentro de un elemento ```<h1>``` se muestran de color azul.
-- El resto de elementos ```<span>``` de la página, se muestran con el color por defecto aplicado por el navegador.
+- Yin "elementos" ```<span>``` tein etokej taijtik nejin "elemento" ```<p>``` se kita chichiltik.
+- Yin "elementos" ```<span>``` tein etokej taijtik nejin "elemento" ```<h1>``` se kita iluitik.
+- Nokseki "elementos" ```<span>``` muitaj ika se tapal kemej ki nextia yin amataijkitil.
 
 ##Selector de clase
 
-Consiste en utilizar el atributo *class* de HTML sobre ese elemento para indicar directamente la regla CSS que se le debe aplicar:
+Se kitalilia se "atributo" *class* de nejin "HTML" tech se "elemento":
 
 ```html
 <body>
@@ -118,14 +118,14 @@ Consiste en utilizar el atributo *class* de HTML sobre ese elemento para indicar
 </body>
 ```
 
-Para que el navegador no confunda este selector con los otros tipos de selectores, se prefija el valor del atributo *class* con un punto (.) tal y como muestra el siguiente ejemplo:
+Yin "atributo" *class* se kitalia ika se "punto" (.) ijko tik ke tikuijtoke se "selector de clase" kemej tikitaj nika:
 
 ```css
 .destacado {
  color: red;
 }
 ```
-El selector *.destacado* se interpreta como "cualquier elemento de la página cuyo atributo *class* sea igual a *destacado*", por lo que solamente el primer párrafo cumple esa condición.
+Yin "selector" *.destacado* tein kijtosneki  " se "elemento" tech yin amataijkitl tein kipia yin atributo *class* ika yin tokay *destacado*", kemej tikita ya se "parráfo" kipia yin "atributo".
 
 En ocasiones, es necesario restringir el alcance del selector de clase:
 
