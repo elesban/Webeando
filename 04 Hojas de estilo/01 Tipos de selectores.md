@@ -125,9 +125,9 @@ Yin "atributo" *class* se kitalia ika se "punto" (.) ijko tik ke tikuijtoke se "
  color: red;
 }
 ```
-Yin "selector" *.destacado* tein kijtosneki  " se "elemento" tech yin amataijkitl tein kipia yin atributo *class* ika yin tokay *destacado*", kemej tikita ya se "parráfo" kipia yin "atributo".
+Yin "selector" *.destacado* tein kijtosneki  " se "elemento" tech yin amataijkitl tein kipia yin atributo *class* ika yin tokay *destacado*", kemej tikita sayo se "parráfo" kipia yin "atributo".
 
-En ocasiones, es necesario restringir el alcance del selector de clase:
+Satepa, keman tik nekiske sayo tik taliske amo nochi tech se "párrafo" uelis tik chiuaske kemej miuta nika:
 
 ```html
 <body>
@@ -137,7 +137,7 @@ En ocasiones, es necesario restringir el alcance del selector de clase:
 </body>
 ```
 
-Para aplicar estilos solamente al párrafo cuyo atributo *class* sea igual a *destacado*, es necesario combinar el selector de tipo y el selector de clase, así se obtiene un selector mucho más específico:
+Keman tik nekiske sayo tein kipia yin "atributo" *class* tein motokaytia *destacado*, tikpia tik kuiske se "selector de tipo" uan se "selector de clase", kemej muita nika:
 
 ```css
 p.destacado {
@@ -145,9 +145,9 @@ p.destacado {
 }
 ```
 
-El selector *p.destacado* se interpreta como "aquellos elementos de tipo ```<p>``` que dispongan de un atributo *class* con valor *destacado*". De la misma forma, el selector *a.destacado* solamente selecciona los enlaces cuyo atributo *class* sea igual a *destacado*.
+Yin "selector" *p.destacado* tein kijtosneki "nochime "elementos" ```<p>``` tein kipiaj se atributo *class* ikan tokay  *destacado*". No ijko, yin "selector" *a.destacado* kikui tein kipiaj  se "atributo" *class* ikan tokay *destacado*.
 
-No debe confundirse el selector de clase con los selectores anteriores:
+Tikpia tik matiske ton kichuaj nochimej yin "selectores":
 
 ```css
 /* Todos los elementos de tipo "p" con atributo class="aviso" */
@@ -160,13 +160,13 @@ p .aviso { ... }
 p, .aviso { ... }
 ```
 
-Además es posible aplicar los estilos de varias clases CSS sobre un mismo elemento. La sintaxis es similar, pero los diferentes valores del atributo *class* se separan con espacios en blanco. En el siguiente ejemplo:
+No ulis ti kuiske miak tamaj nejin "estilos"  itche miak tamaj nejin "clases CSS" itech se "elemento". Maj tikitaka keniuj se kijkuiloua ikan yin "atributo" *class*:
 
 ```css
 <p class="especial destacado error">Párrafo de texto...</p>
 ```
 
-Al párrafo anterior se le aplican los estilos definidos en las reglas *.especial*, *.destacado* y *.error*, por lo que en el siguiente ejemplo, el texto del párrafo se vería de color rojo, en negrita y con un tamaño de letra de 15 píxel:
+Yin "párrafo" kipia miak "estilos" tech yin "reglas" *.especial*, *.destacado* y *.error*, kemej nika muita:
 
 ```css
 .error {
@@ -184,11 +184,11 @@ Al párrafo anterior se le aplican los estilos definidos en las reglas *.especia
 
 ##Selectores de ID
 
-En ocasiones, es necesario aplicar estilos CSS a un único elemento de la página. Aunque puede utilizarse un selector de clase para aplicar estilos a un único elemento, existe otro selector más eficiente en este caso.
+Satepa, keman tiknekiske tik taliske se "estilos CSS" a sayo se "elemento" tech to amataijkitil. Uel tikuiske yin kitokaytia "selector de ID".
 
-El selector de ID permite seleccionar un elemento de la página a través del valor de su atributo *id*. Este tipo de selectores sólo seleccionan un elemento de la página porque el valor del atributo *id* no se puede repetir en dos elementos diferentes de una misma página.
+Yin "selector de ID" tech paleuia keman sayo tik neki tik pataske se "elemento" de to amataijkitil ikan ni "atributo" *id*. Yin "selectores" sayo mokui sayo sepa tech se "elemento" ika "atributo" *id* uan amo uel se kikui sepa tech okse "elemento" tech to amataijkitil.
 
-La sintaxis de los selectores de ID es muy parecida a la de los selectores de clase, salvo que se utiliza el símbolo de la almohadilla (#) en vez del punto (.) como prefijo del nombre de la regla CSS:
+Keman se kikui se "selector de ID" se kijkuiloua ika se "almohadilla" (#) kemej muita nika:
 
 ```css
 #destacado {
@@ -202,9 +202,9 @@ La sintaxis de los selectores de ID es muy parecida a la de los selectores de cl
 <p>Tercer párrafo</p>
 ```
 
-En el ejemplo anterior, el selector *#destacado* solamente selecciona el segundo párrafo (cuyo atributo *id* es igual a *destacado*).
+Kemej tikita, tech "selector" *#destacado* sayo kipata  tein kipia yin "atributo" *id* tein motokaytia  *destacado*.
 
-La principal diferencia entre este tipo de selector y el selector de clase tiene que ver con HTML y no con CSS. Como se sabe, en una misma página, el valor del atributo *id* debe ser único, de forma que dos elementos diferentes no pueden tener el mismo valor de *id*. Sin embargo, el atributo *class* no es obligatorio que sea único, de forma que muchos elementos HTML diferentes pueden compartir el mismo valor para su atributo *class*.
+Keniuj tikmati keman tikuiske se "selector de ID" uan se "selector de clase" yin te chiluia "HTML" uan amo "CSS". Keman se kikui se "atributo" *id* tech se "elemento" amo uel se kikui ojpa sayo sepatsi, yin kijtosneki ke ome "elementos" amo uel kipiaske *id* ikan mismmo tokay. Keman se kikui yin "atributo" *class* uel tikuiske miakpa tech se "elemento", miak "elementos HTML" uel kikuiske yin mismo "atributo" *class*.
 
 ##Combinación de selectores básicos
 
