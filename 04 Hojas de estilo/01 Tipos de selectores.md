@@ -214,27 +214,27 @@ CSS tech kaua maj tikuika se o mas "tipos de selectores". Maj tikitaka keniuj se
 .aviso .especial { ... }
 ```
 
-El anterior selector solamente selecciona aquellos elementos con un *class="especial"* que se encuentren dentro de cualquier elemento con un *class="aviso"*.
+Kemej tikita yin sayo kualtia ika nochime "elementos" tein kipia se *class="especial"* tein etok taijtik tech se  *class="aviso"*.
 
-Si se modifica el anterior selector:
+Maj tikpataka yin "selector":
 
 ```css
 div.aviso span.especial { ... }
 ```
 
-Ahora, el selector solamente selecciona aquellos elementos de tipo ```<span>``` con un atributo *class="especial"* que estén dentro de cualquier elemento de tipo ```<div>``` que tenga un atributo *class="aviso"*.
+Ekintsi yin "selector" kualtiak sayo ika nochime "elementos" tein kipiaj se ```<span>``` ika se "atributo" *class="especial"* tein etok taijtik tech se "elemento" ```<div>``` tein kipia se "atributo" *class="aviso"*.
 
-La combinación de selectores puede llegar a ser todo lo compleja que sea necesario:
+Uel tik piaske miak "selectores" kemej tikitaj nika:
 
 ```css
 ul#menuPrincipal li.destacado a#inicio { ... }
 ```
 
-El anterior selector hace referencia al *enlace* con un atributo *id* igual a *inicio* que se encuentra dentro de un elemento de tipo ```<li>``` con un atributo *class* igual a *destacado*, que forma parte de una lista ```<ul>``` con un atributo *id* igual a *menuPrincipal*.
+Yin "selector" kikui se *enlace* ika se "atributo" *id* tein motokaytia *inicio* tein etok taijtik tech se "elemento" ```<li>``` ika se "atributo" *class* tein motokaytia *destacado*, tein etok tech se "lista" ```<ul>``` ika se "atributo" *id* tein motokaytia *menuPrincipal*.
 
 ##Selector de hijos
 
-Se trata de un selector similar al *selector descendente*, pero muy diferente en su funcionamiento. Se utiliza para seleccionar un elemento que es hijo directo de otro elemento y se indica mediante el "signo de mayor que" (>):
+Muita kemej se *selector descendente*, sayo ke amo tekiti kemej yin tekiti. Mokui keman tikpia se "elemento" tein kitojtoka okse "elemento" uan se kinextia ika "signo de mayor que" (>):
 
 ```css
 p > span {
@@ -246,7 +246,7 @@ p > span {
 <p><a href="#"><span>Texto...</span></a></p>
 ```
 
-En el ejemplo anterior, el selector ```p > span``` se interpreta como "cualquier elemento ```<span>``` que sea hijo directo de un elemento ```<p>```", por lo que el primer elemento ```<span>``` cumple la condición del selector. Sin embargo, el segundo elemento ```<span>``` no la cumple porque es descendiente pero no es hijo directo de un elemento ```<p>```.
+Kemej tikita yin "selector" ```p > span``` se interpreta como "cualquier elemento ```<span>``` que sea hijo directo de un elemento ```<p>```", por lo que el primer elemento ```<span>``` cumple la condición del selector. Sin embargo, el segundo elemento ```<span>``` no la cumple porque es descendiente pero no es hijo directo de un elemento ```<p>```.
 
 El siguiente ejemplo muestra las diferencias entre el selector descendente y el selector de hijos:
 
