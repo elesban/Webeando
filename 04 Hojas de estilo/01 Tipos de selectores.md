@@ -246,7 +246,7 @@ p > span {
 <p><a href="#"><span>Texto...</span></a></p>
 ```
 
-Kemej tikita yin "selector" ```p > span``` se interpreta como "cualquier elemento ```<span>``` que sea hijo directo de un elemento ```<p>```", por lo que el primer elemento ```<span>``` cumple la condición del selector. Sin embargo, el segundo elemento ```<span>``` no la cumple porque es descendiente pero no es hijo directo de un elemento ```<p>```.
+Kemej tikita yin "selector" ```p > span``` tein kijtosneki "se "elemento" ```<span>``` tein ki tojtoka nejin "elemento" ```<p>```", kemej tikita yinpor lo que el primer elemento ```<span>``` cumple la condición del selector. Sin embargo, el segundo elemento ```<span>``` no la cumple porque es descendiente pero no es hijo directo de un elemento ```<p>```.
 
 El siguiente ejemplo muestra las diferencias entre el selector descendente y el selector de hijos:
 
