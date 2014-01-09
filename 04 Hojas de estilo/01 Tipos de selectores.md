@@ -208,7 +208,7 @@ Keniuj tikmati keman tikuiske se "selector de ID" uan se "selector de clase" yin
 
 ##Combinación de selectores básicos
 
-CSS permite la combinación de uno o más tipos de selectores para restringir el alcance de las reglas CSS. A continuación se muestran algunos ejemplos habituales de combinación de selectores.
+CSS tech kaua maj tikuika se o mas "tipos de selectores". Maj tikitaka keniuj se kikui.
 
 ```css
 .aviso .especial { ... }
