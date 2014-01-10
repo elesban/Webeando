@@ -246,9 +246,9 @@ p > span {
 <p><a href="#"><span>Texto...</span></a></p>
 ```
 
-Kemej tikita yin "selector" ```p > span``` tein kijtosneki "se "elemento" ```<span>``` tein ki tojtoka nejin "elemento" ```<p>```", kemej tikita yinpor lo que el primer elemento ```<span>``` cumple la condición del selector. Sin embargo, el segundo elemento ```<span>``` no la cumple porque es descendiente pero no es hijo directo de un elemento ```<p>```.
+Kemej tikita yin "selector" ```p > span``` tein kijtosneki "se "elemento" ```<span>``` tein ki tojtoka nejin "elemento" ```<p>```", Nejin "elemento" ```<span>``` kemaj mo pata ikan yin "selector". Noske tein kitojtoka noske "elemento" ```<span>``` amo mo pata.
 
-El siguiente ejemplo muestra las diferencias entre el selector descendente y el selector de hijos:
+Maj tikitaka keniuj tekiti yin "selector descendente" uan "selector de hijos":
 
 ```css
 p a {
@@ -264,19 +264,19 @@ p > a {
 <p><span><a href="#">Enlace2...</a></span></p>
 ```
 
-El primer selector es de tipo *descendente* y por tanto se aplica a todos los elementos ```<a>``` que se encuentran dentro de elementos ```<p>```. En este caso, los estilos de este selector se aplican a los dos enlaces.
+Tein achto yetok se "selector" *descendente* uan ueli tikitaj tech "elementos" tein achto etoj yin ```<a>``` tein etok taijtik nejin "elementos" ```<p>```. Kemej tikita mo nextiske tapaloi chichiltik.
 
-Por otra parte, el selector de hijos obliga a que el elemento ```<a>``` sea hijo directo de un elemento ```<p>```. Por lo tanto, los estilos del selector ```p > a``` no se aplican al segundo enlace del ejemplo anterior.
+No tikitan ke yin "selector de hijos" kichiua ke yin "elemento" ```<a>``` konet nejin "elemento" ```<p>```. Yin kichiua ke yin "estilos del selector" ```p > a``` amo mokuis tech to amataijkitil "html".
 
 ##Selector adyacente
 
-El selector adyacente se emplea para seleccionar elementos que en el código HTML de la página se encuentran justo a continuación de otros elementos. Su sintaxis emplea el signo ```+``` para separar los dos elementos:
+Yin "selector adyacente" mokuik keman tik neki tik pataste "elementos" tein kitojtoka nima. Se kikui ika yin "signo" ```+``` kemej tikita nika tani:
 
 ```css
 elemento1 + elemento2 { ... }
 ```
 
-Si se considera el siguiente código HTML:
+Maj tikuika tech se "código HTML":
 
 ```html
 <body>
@@ -286,7 +286,7 @@ Si se considera el siguiente código HTML:
 </body>
 ```
 
-La página anterior dispone de dos elementos ```<h2>```, pero sólo uno de ellos se encuentra inmediatamente después del elemento ```<h1>```. Si se quiere aplicar diferentes colores en función de esta circunstancia, el *selector adyacente* es el más adecuado:
+Yin amataijkitil kipia ome "elementos" ```<h2>```, sayo se tein etok nima de nejin "elemento" ```<h1>``` mo pata. Keman tik nekiske maj mo pata nochi uelis tikuiske *selector adyacente* kemej mo nextia nika tani:
 
 ```css
 h2 {
@@ -298,14 +298,14 @@ h1 + h2 {
 }
 ```
 
-Las reglas CSS anteriores hacen que todos los ```<h2>``` de la página se vean de color verde, salvo aquellos ```<h2>``` que se encuentran inmediatamente después de cualquier elemento ```<h1>``` y que se muestran de color rojo.
+Yin "CSS" kichiua ke yin ```<h2>``` nejin to amataijkitil muita tapali xoxoctik , sayo amo ne```<h2>``` tein etoke nima de nejin "elemento" ```<h1>```tein monextia tapali chichiltik.
 
-Técnicamente, los elementos que forman el *selector adyacente* deben cumplir las dos siguientes condiciones:
+Yin "elementos" tein kukui *selector adyacente* kipiaj ome "condiciones":
 
-- *elemento1* y *elemento2* deben ser elementos hermanos, por lo que su elemento padre debe ser el mismo.
-- *elemento2* debe aparecer inmediatamente después de *elemento1* en el código HTML de la página.
+- *elemento1* y *elemento2* kipia eski iknime.
+- *elemento2* kipia ke etos nima de nejin *elemento1* tech to amataijkitil HTML.
 
-El siguiente ejemplo es muy útil para los textos que se muestran como libros:
+Maj tikitak keniuj mokui:
 
 ```css
 p + p {
@@ -313,20 +313,20 @@ p + p {
 }
 ```
 
-En muchos libros, suele ser habitual que la primera línea de todos los párrafos esté indentada, salvo la primera línea del primer párrafo. Con el selector ```p + p```, se seleccionan todos los párrafos de la página que estén precedidos por otro párrafo, por lo que no se aplica al primer párrafo de la página.
+Tech miak amoxmejs, ke nochin "parráfos ki kaua se "espacio", yaso amo tech "párrafo" tein peua. Ika yin "selector" ```p + p```, ti kuij nochin "párrafos" , sayo amo mokui "parráfo" tein peua.
 
 ##Selector de atributos
 
-El último tipo de selectores avanzados lo forman los *selectores de atributos*, que permiten seleccionar elementos HTML en función de sus atributos y/o valores de esos atributos.
+No tikpiaj *selectores de atributos*, teik kikui "atributos" de nejin to amataijkitil "HTML".
 
-Los cuatro tipos de selectores de atributos son:
+Tikpiaj naui "tipos de selectores de atributos":
 
 - [nombre_atributo], selecciona los elementos que tienen establecido el atributo llamado *nombre_atributo*, independientemente de su *valor*.
 - [nombre_atributo=valor], selecciona los elementos que tienen establecido un atributo llamado *nombre_atributo* con un *valor* igual a *valor*.
 - [nombre_atributo~=valor], selecciona los elementos que tienen establecido un atributo llamado *nombre_atributo* y al menos uno de los valores del atributo es *valor*.
 - [nombre_atributo|=valor], selecciona los elementos que tienen establecido un atributo llamado *nombre_atributo* y cuyo valor es una serie de palabras separadas con guiones, pero que comienza con *valor*. Este tipo de selector sólo es útil para los atributos de tipo *lang* que indican el idioma del contenido del elemento.
 
-A continuación se muestran algunos ejemplos de estos tipos de selectores:
+Maj tikitaka keniuj se kikui:
 
 ```css
 /* Se muestran de color azul todos los enlaces que tengan un atributo "class", independientemente de su valor */
