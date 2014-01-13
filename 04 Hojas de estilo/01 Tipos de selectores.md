@@ -321,10 +321,10 @@ No tikpiaj *selectores de atributos*, teik kikui "atributos" de nejin to amataij
 
 Tikpiaj naui "tipos de selectores de atributos":
 
-- [nombre_atributo], selecciona los elementos que tienen establecido el atributo llamado *nombre_atributo*, independientemente de su *valor*.
-- [nombre_atributo=valor], selecciona los elementos que tienen establecido un atributo llamado *nombre_atributo* con un *valor* igual a *valor*.
-- [nombre_atributo~=valor], selecciona los elementos que tienen establecido un atributo llamado *nombre_atributo* y al menos uno de los valores del atributo es *valor*.
-- [nombre_atributo|=valor], selecciona los elementos que tienen establecido un atributo llamado *nombre_atributo* y cuyo valor es una serie de palabras separadas con guiones, pero que comienza con *valor*. Este tipo de selector sólo es útil para los atributos de tipo *lang* que indican el idioma del contenido del elemento.
+- [nombre_atributo], kikui "elementos" tein kipiaj se "atributo" tein monotsa *nombre_atributo*, independientemente de su *valor*.
+- [nombre_atributo=valor], kikui "elementos" tein kipiaj se "atributo" tein monotsa *nombre_atributo* con un *valor* igual a *valor*.
+- [nombre_atributo~=valor], kikui "elementos" tein kipiaj se "atributo" tein monotsa *nombre_atributo* uan kipia  se "atributo" ika *valor*.
+- [nombre_atributo|=valor], kikui "elementos" tein kipiaj se "atributo" tein monotsa *nombre_atributo* uan kipia tajtol ika "guiones", uan peua ika *valor*. Mokui tech "atributos" tein kikui *lang*.
 
 Maj tikitaka keniuj se kikui:
 
